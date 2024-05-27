@@ -5,7 +5,7 @@
 -- Dumped from database version 15.2
 -- Dumped by pg_dump version 15.2
 
--- Started on 2024-05-27 22:41:29
+-- Started on 2024-05-27 23:45:36
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -549,6 +549,18 @@ INSERT INTO public.image_description (id, property_id, image_url, created_at, up
 INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (4, 2, 'storage/uploads/properties/description/2024-05-23/16/03/20/img_1.jpg', '2024-05-23 16:03:20', '2024-05-23 16:03:20');
 INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (5, 2, 'storage/uploads/properties/description/2024-05-23/16/03/20/img_2.jpg', '2024-05-23 16:03:20', '2024-05-23 16:03:20');
 INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (6, 2, 'storage/uploads/properties/description/2024-05-23/16/03/20/img_3.jpg', '2024-05-23 16:03:20', '2024-05-23 16:03:20');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (7, 3, 'storage/uploads/properties/description/2024-05-27/23/37/26/img_1.jpg', '2024-05-27 23:37:26', '2024-05-27 23:37:26');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (8, 3, 'storage/uploads/properties/description/2024-05-27/23/37/26/img_2.jpg', '2024-05-27 23:37:26', '2024-05-27 23:37:26');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (9, 3, 'storage/uploads/properties/description/2024-05-27/23/37/27/img_3.jpg', '2024-05-27 23:37:27', '2024-05-27 23:37:27');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (10, 4, 'storage/uploads/properties/description/2024-05-27/23/39/38/img_4.jpg', '2024-05-27 23:39:38', '2024-05-27 23:39:38');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (11, 4, 'storage/uploads/properties/description/2024-05-27/23/39/38/img_5.jpg', '2024-05-27 23:39:38', '2024-05-27 23:39:38');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (12, 4, 'storage/uploads/properties/description/2024-05-27/23/39/38/img_7.jpg', '2024-05-27 23:39:38', '2024-05-27 23:39:38');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (13, 5, 'storage/uploads/properties/description/2024-05-27/23/41/30/img_5.jpg', '2024-05-27 23:41:30', '2024-05-27 23:41:30');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (14, 5, 'storage/uploads/properties/description/2024-05-27/23/41/30/img_7.jpg', '2024-05-27 23:41:30', '2024-05-27 23:41:30');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (15, 5, 'storage/uploads/properties/description/2024-05-27/23/41/30/img_8.jpg', '2024-05-27 23:41:30', '2024-05-27 23:41:30');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (16, 6, 'storage/uploads/properties/description/2024-05-27/23/43/09/img_4.jpg', '2024-05-27 23:43:09', '2024-05-27 23:43:09');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (17, 6, 'storage/uploads/properties/description/2024-05-27/23/43/09/img_5.jpg', '2024-05-27 23:43:09', '2024-05-27 23:43:09');
+INSERT INTO public.image_description (id, property_id, image_url, created_at, updated_at) VALUES (18, 6, 'storage/uploads/properties/description/2024-05-27/23/43/09/img_7.jpg', '2024-05-27 23:43:09', '2024-05-27 23:43:09');
 
 
 --
@@ -559,6 +571,10 @@ INSERT INTO public.image_description (id, property_id, image_url, created_at, up
 
 INSERT INTO public.image_main (id, property_id, image_url, created_at, updated_at) VALUES (1, 1, 'storage/uploads/properties/main/2024-05-23/16/01/35/hero_bg_3.jpg', '2024-05-23 16:01:35', '2024-05-23 16:01:35');
 INSERT INTO public.image_main (id, property_id, image_url, created_at, updated_at) VALUES (2, 2, 'storage/uploads/properties/main/2024-05-23/16/03/20/img_4.jpg', '2024-05-23 16:03:20', '2024-05-23 16:03:20');
+INSERT INTO public.image_main (id, property_id, image_url, created_at, updated_at) VALUES (3, 3, 'storage/uploads/properties/main/2024-05-27/23/37/26/hero_bg_3.jpg', '2024-05-27 23:37:26', '2024-05-27 23:37:26');
+INSERT INTO public.image_main (id, property_id, image_url, created_at, updated_at) VALUES (4, 4, 'storage/uploads/properties/main/2024-05-27/23/39/38/hero_bg_1.jpg', '2024-05-27 23:39:38', '2024-05-27 23:39:38');
+INSERT INTO public.image_main (id, property_id, image_url, created_at, updated_at) VALUES (5, 5, 'storage/uploads/properties/main/2024-05-27/23/41/30/hero_bg_1.jpg', '2024-05-27 23:41:30', '2024-05-27 23:41:30');
+INSERT INTO public.image_main (id, property_id, image_url, created_at, updated_at) VALUES (6, 6, 'storage/uploads/properties/main/2024-05-27/23/43/09/hero_bg_2.jpg', '2024-05-27 23:43:09', '2024-05-27 23:43:09');
 
 
 --
@@ -602,6 +618,10 @@ INSERT INTO public.migrations (id, migration, batch) VALUES (18, '2024_04_06_133
 
 INSERT INTO public.properties (id, title, description, address, price, bedroom, bathroom, category, geom, user_id, created_at, updated_at) VALUES (1, 'BÁN NHÀ NGUYỄN VĂN LỘC - TRUNG TÂM HÀ ĐÔNG - KHU VỰC HIẾM NHÀ BÁN - TIỆN ÍCH KHU - PHỐ VIP HÀ ĐÔNG', '<p><img src="https://static.chotot.com/storage/icons/logos/ad-param/size.png" alt="Diện tích đất" width="20" height="20"></p><p>Diện tích đất: 37 m²</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/price_m2.png" alt="Giá/m2" width="20" height="20"></p><p>Giá/m2: 160,81 triệu/m²</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/rooms.png" alt="Số phòng ngủ" width="20" height="20"></p><p>Số phòng ngủ: 3 phòng</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/toilets.png" alt="Số phòng vệ sinh" width="20" height="20"></p><p>Số phòng vệ sinh: 4 phòng</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/floors.png" alt="Tổng số tầng" width="20" height="20"></p><p>Tổng số tầng: 5</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/property_legal_document.png" alt="Giấy tờ pháp lý" width="20" height="20"></p><p>Giấy tờ pháp lý: Đã có sổ</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/house_type.png" alt="Loại hình nhà ở" width="20" height="20"></p><p>Loại hình nhà ở: Nhà ngõ, hẻm</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/furnishing_sell.png" alt="Tình trạng nội thất" width="20" height="20"></p><p>Tình trạng nội thất: Nội thất đầy đủ</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/living_size.png" alt="Diện tích sử dụng" width="20" height="20"></p><p>Diện tích sử dụng: 37 m²</p><p>BÁN NHÀ NGUYỄN VĂN LỘC - TRUNG TÂM HÀ ĐÔNG - KHU VỰC HIẾM NHÀ BÁN - TIỆN ÍCH KHU - PHỐ VIP HÀ ĐÔNG</p><p>&nbsp;-Bán nhà Nguyễn Văn Lộc 38m2, 5 tầng, Giá chào 5,95 tỷ có thương lượng - Vị trí trung tâm Hà Đông xung quanh là các Khu đô thị Mỗ Lao, Làng Việt Kiều châu Âu, Khu đô thị Văn Quán, hưởng trọn tiện ích..&nbsp;</p><p>- Ngõ Nguyễn Văn Lộc Ô tô tránh thông sang Phố Ao Sen sầm uất, kinh doanh tập nập, nhà cách oto dừng đỗ 15m. Giao thông thuận tiện kết nối các khu vực.&nbsp;</p><p>Thiết kế: 5 tầng, 3 ngủ(có thể thêm thành 4 ngủ), 5 vệ sinh&nbsp;</p><p>+ Tầng 1: Phòng khách , bếp, sân để xe, vệ sinh.&nbsp;</p><p>+ Tầng 2-3-4 : mỗi tầng 1 PN + vệ sinh khép kín, thoáng, ban công&nbsp;</p><p>+ Tầng 5: phòng thờ, tum, sân phơi - Sổ đỏ chính chủ chờ giao dịch. Liên hệ em để xem nhà trực tiếp ***</p>', 'Phố Nguyễn Văn Lộc, Phường Mộ Lao, Quận Hà Đông, Hà Nội', 5950000000, 3, 4, 'Căn hộ', '0101000020E6100000DD184C0DFE715A40F764B4441DFC3440', 3, '2024-05-23 16:01:35', '2024-05-23 16:01:35');
 INSERT INTO public.properties (id, title, description, address, price, bedroom, bathroom, category, geom, user_id, created_at, updated_at) VALUES (2, 'Siêu hiếm bán nhà 5 tầng 105 Doãn Kế Thiện 10m ra đường ôtô', '<p><img src="https://static.chotot.com/storage/icons/logos/ad-param/size.png" alt="Diện tích đất" width="20" height="20"></p><p>Diện tích đất: 30 m²</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/price_m2.png" alt="Giá/m2" width="20" height="20"></p><p>Giá/m2: 198,33 triệu/m²</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/rooms.png" alt="Số phòng ngủ" width="20" height="20"></p><p>Số phòng ngủ: 3 phòng</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/toilets.png" alt="Số phòng vệ sinh" width="20" height="20"></p><p>Số phòng vệ sinh: 4 phòng</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/floors.png" alt="Tổng số tầng" width="20" height="20"></p><p>Tổng số tầng: 5</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/property_legal_document.png" alt="Giấy tờ pháp lý" width="20" height="20"></p><p>Giấy tờ pháp lý: Giấy tờ viết tay</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/house_type.png" alt="Loại hình nhà ở" width="20" height="20"></p><p>Loại hình nhà ở: Nhà ngõ, hẻm</p><p>- Diện tích : 30m2 như tờ A4. - Nhà thiết kế 5 tầng. + Tầng 1 phòng khách , wc + Tầng 2, 3, 4 mỗi phòng 1 PN , WC riêng + Tầng 5 phòng thờ , sân phơi - Cách 10m ra đường ôtô lớn , giao thông thuận lợi , đầy đủ tiện ích xung quanh chợ , trường học , bệnh viện , siêu thị - Chủ để lại full nội thất của ToTo. - Giá 5.950 tỷ có thương lượng. - Sổ cất két sãn sàng giao dịch. ACE quan tâm liên hệ E Dương:</p>', 'Phố Doãn Kế Thiện, Phường Mai Dịch, Quận Cầu Giấy, Hà Nội', 5950000000, 3, 4, 'Căn hộ', '0101000020E610000021E4BCFF8F715A40DF4037EAD70A3540', 3, '2024-05-23 16:03:20', '2024-05-23 16:03:20');
+INSERT INTO public.properties (id, title, description, address, price, bedroom, bathroom, category, geom, user_id, created_at, updated_at) VALUES (3, 'BÁN CĂN 2PN2VS BÁN GÓC VIEW BIỆT THỰ TRIỆU ĐÔ THOÁNG VĨNH VIỄN , FULL NỘI THẤT, BC ĐÔNG BẮC, SẴN SỔ', '<p>Chính chủ gửi bán căn 2PN2VS+1 bán góc Toà S1,12 tầng 23 full nội thất đẹp<br>Giá 2,82 tỷ mọi thuế phí và để lại full đồ y ảnh!<br>Diện tích 63m² thông thuỷ, ban công đông bắc, rất mát.<br>Ngoài View VinUni thì View đảo Ngọc Trai đẹp nhất dự án Ocean Park, đây là tầm view thoáng vĩnh viễn, cực đẹp , bên dưới là khu biệt thự VIp nhất Ocean Park, mang lại vượng khí tài lộc cho gia chủ.</p>', 'Dự án Vinhomes Ocean Park Gia Lâm, Huyện Gia Lâm, Hà Nội', 2530000000, 3, 2, 'Căn hộ', '0101000020E610000001E07EB5BD7C5A405A392AB1F7FE3440', 4, '2024-05-27 23:37:26', '2024-05-27 23:37:26');
+INSERT INTO public.properties (id, title, description, address, price, bedroom, bathroom, category, geom, user_id, created_at, updated_at) VALUES (4, 'Giảm Giá ,bán chung cư Phố Cự Lộc -Cạnh Roay City -Thanh xuân ,Sổ hồng', '<p><img src="https://static.chotot.com/storage/icons/logos/ad-param/property_status.png" alt="Tình trạng bất động sản" width="20" height="20"></p><p>Tình trạng bất động sản: Đã bàn giao</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/size.png" alt="Diện tích" width="20" height="20"></p><p>Diện tích: 52 m²</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/price_m2.png" alt="Giá/m2" width="20" height="20"></p><p>Giá/m2: 17,12 triệu/m²</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/rooms.png" alt="Số phòng ngủ" width="20" height="20"></p><p>Số phòng ngủ: 2 phòng</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/toilets.png" alt="Số phòng vệ sinh" width="20" height="20"></p><p>Số phòng vệ sinh: 1 phòng</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/apartment_type.png" alt="Loại hình căn hộ" width="20" height="20"></p><p>Loại hình căn hộ: Chung cư</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/property_legal_document.png" alt="Giấy tờ pháp lý" width="20" height="20"></p><p>Giấy tờ pháp lý: Sổ hồng riêng</p><p><img src="https://static.chotot.com/storage/icons/logos/ad-param/furnishing_sell.png" alt="Tình trạng nội thất" width="20" height="20"></p><p>Tình trạng nội thất: Nội thất đầy đủ</p><p><br>Giảm Giá Sâu ...Bán chung cư mini giá rẻ hà nội Tại Phố Cự Lộc - Nguyễn Trái - quận Thanh Xuân nhà mới, ô tô đỗ cửa, sổ hổng lâu dài.&nbsp;</p><p>. Liên hệ Thái chủ đầu tư để mua nhà. SDT :( có Zalo - Miễn môi giới ) Chung cư xây dựng mới hiện đại, đã hoàn thiện có thể xách đồ về ở ngay.&nbsp;</p><p>Cạnh Trung tâm thương mại Roay City Gần các trường đại học - chợ - siêu thị - trường học các cấp - đi lại thuận lợi.&nbsp;</p><p>Giá bán: 600tr - 700tr - 800tr - 900tr - hơn 1 tỷ Diện tích: 45m² - 48m - 52m - 54m - 60m - 66m².&nbsp;</p><p>Tòa nhà thiết kế tầng 1 để xe, có đầy đủ hệ thống phòng cháy chữa cháy tự động, an ninh tòa nhà bảo vệ chuyên nghiệp. Nội thất full đồ : Giường Tủ , Bếp Trên dưới ,Bình nóng Lạnh ,Máy giặt ,Điều Hòa ,Tủ Lanh, Sofa...&nbsp;</p><p>Sổ hồng sở hữu vĩnh viễn - nhận nhà ở ngay. Thanh toán nhanh chiết khấu cao hơn. Liên hệ trực tiếp Thái chủ đầu tư để mua nhà giá gốc.</p><p>&nbsp;SDT : Lưu ý em không hỗ trợ vay ngân hàng, miễn trung gian.</p>', 'Phố Cự Lộc, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội', 890000000, 2, 1, 'Căn hộ', '0101000020E6100000ECA8C53B1B745A40F125F9B605003540', 4, '2024-05-27 23:39:38', '2024-05-27 23:39:38');
+INSERT INTO public.properties (id, title, description, address, price, bedroom, bathroom, category, geom, user_id, created_at, updated_at) VALUES (5, 'Chủ nhà, bán đất 48 Phố Đàm Quang Trung - Long Biên, DT 102m2, MT 7.2m, giá 25 tỷ', '<p>Chủ nhà, bán đất 48 Phố Đàm Quang Trung - Long Biên, DT102m², MT 7.2m giá 25 tỷ.<br><br>Thông tin: Đất mặt phố 48 Phố Đàm Quang Trung - Long Biên - ngay chân cầu Vĩnh Tuy.<br><br>DT 102m², MT 7.2m hậu 7,8m - đất 2 mặt trước là phố - sau nhà là ngõ 2m.<br>Tiện xây tòa nhà văn phòng - sát bên xd 8 tầng.</p>', '48, Đường Đàm Quang Trung, Phường Long Biên, Long Biên, Hà Nội', 25000000000, 4, 4, 'Căn hộ', '0101000020E610000001B85F8D9A785A40CA8D97C648053540', 4, '2024-05-27 23:41:30', '2024-05-27 23:41:30');
+INSERT INTO public.properties (id, title, description, address, price, bedroom, bathroom, category, geom, user_id, created_at, updated_at) VALUES (6, 'Cần tiền nên bán gấp mấy mảnh đất sổ đỏ giá rẻ, DT từ 100 - 5000m gần khu CN sạch Minh trí, Sóc Sơn', '<p>Cần tiền nên cần bán gấp mấy mảnh đất có sổ đỏ giá rẻ DT từ 100 - 5000m² gần sân golf HN và khu du lịch hồ Đồng Đò, Minh trí, Sóc Sơn, HN.<br>* Mảnh 1: DT 645m² có sổ đỏ trong đó có 200m² đất ở còn lại là đất vườn giá 6tr, đất ở Thái Lai, Minh Trí.<br>* Mảnh 2: DT 172m² có sổ đỏ trong đó có 100m đất ở còn lại là đất vườn giá nhỉnh 10tr/m, đất thuộc Thái Lai, Minh Trí.<br>* Mảnh 3: DT 142m² có sổ đỏ đất ở tất ko có đất vườn giá nhỉnh 10tr/m chút.<br>* Mảnh 4: DT 83.5m có sổ đỏ trong đó toàn bộ là đất ở tất, ko có đất vườn giá nhỉnh 10tr/m.<br>* Mảnh 5: DT 450m² có sổ đỏ trong đó có 90m đất ở còn lại là đất vườn giá hơn 6tr/m.<br>* Mảnh 6: DT 229m có sổ đỏ đất ở tất ko có đất vườn giá nhỉnh 10tr/m.<br>* Mảnh 7: DT 1000m có sổ đỏ trong đó có 500m đất ở còn lại là đất vườn giá 10tr/m.<br>* Mảnh 8: DT 121m có sổ đỏ trong đó có 80m đất ở còn lại là đất vườn giá 10tr/m.<br>Lưu ý: Mình chỉ tiếp khách có nhu cầu mua đất thôi, còn các bạn sale mời chào đăng tin quảng cáo làm ơn ko gọi cho mình nhé! Xin cảm ơn!</p>', 'Xã Minh Trí, Sóc Sơn, Hà Nội', 3870000000, 2, 2, 'Căn hộ', '0101000020E610000061E4F661D0705A40C46C1338234C3540', 4, '2024-05-27 23:43:09', '2024-05-27 23:43:09');
 
 
 --
@@ -684,7 +704,7 @@ SELECT pg_catalog.setval('public.failed_jobs_id_seq', 1, false);
 -- Name: image_description_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.image_description_id_seq', 6, true);
+SELECT pg_catalog.setval('public.image_description_id_seq', 18, true);
 
 
 --
@@ -693,7 +713,7 @@ SELECT pg_catalog.setval('public.image_description_id_seq', 6, true);
 -- Name: image_main_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.image_main_id_seq', 2, true);
+SELECT pg_catalog.setval('public.image_main_id_seq', 6, true);
 
 
 --
@@ -720,7 +740,7 @@ SELECT pg_catalog.setval('public.personal_access_tokens_id_seq', 1, false);
 -- Name: properties_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.properties_id_seq', 2, true);
+SELECT pg_catalog.setval('public.properties_id_seq', 6, true);
 
 
 --
@@ -875,7 +895,7 @@ ALTER TABLE ONLY public.users
 CREATE INDEX personal_access_tokens_tokenable_type_tokenable_id_index ON public.personal_access_tokens USING btree (tokenable_type, tokenable_id);
 
 
--- Completed on 2024-05-27 22:41:30
+-- Completed on 2024-05-27 23:45:37
 
 --
 -- PostgreSQL database dump complete
