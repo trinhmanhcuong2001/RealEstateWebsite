@@ -20,7 +20,7 @@
                     <li><a href="contact.html">Liên Hệ</a></li>
                     @if (isset(Auth::user()->role) && Auth::user()->role == 0)
                         <li><a href="{{URL::to('admin/dashboard')}}">Quản lý</a></li>
-                    @elseif (Auth::user()->role == 1 && Auth::user()->role)
+                    @elseif (isset(Auth::user()->role) && Auth::user()->role == 1  )
                         <li><a href="{{URL::to('properties/add')}}">Đăng tin</a></li>
                     @endif
                     @if (Auth::check())
